@@ -10,3 +10,7 @@ function showCardDetails() {
     cardDetails.style.display = "none";
   }
 }
+
+$(document).ready(function() {
+  $('#terms').modal('show');
+});
